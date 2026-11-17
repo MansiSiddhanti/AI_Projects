@@ -1,0 +1,72 @@
+{
+  "checkpoint": "models/best_plant_disease_model.pth",
+  "arch": "resnet18",
+  "test_images": 998,
+  "accuracy": 0.9889779686927795,
+  "macro_f1": 0.9881831424136241,
+  "per_class": {
+    "Bacterial spot": {
+      "precision": 1.0,
+      "recall": 0.9875,
+      "f1-score": 0.9937106918238994,
+      "support": 320.0
+    },
+    "Early blight": {
+      "precision": 0.9620253164556962,
+      "recall": 1.0,
+      "f1-score": 0.9806451612903225,
+      "support": 152.0
+    },
+    "Late blight": {
+      "precision": 0.9825783972125436,
+      "recall": 0.9825783972125436,
+      "f1-score": 0.9825783972125436,
+      "support": 287.0
+    },
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 0.9916317991631799,
+      "f1-score": 0.9957983193277311,
+      "support": 239.0
+    },
+    "accuracy": 0.9889779559118237,
+    "macro avg": {
+      "precision": 0.98615092841706,
+      "recall": 0.9904275490939309,
+      "f1-score": 0.9881831424136241,
+      "support": 998.0
+    },
+    "weighted avg": {
+      "precision": 0.9892062606225109,
+      "recall": 0.9889779559118237,
+      "f1-score": 0.9890193228648342,
+      "support": 998.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      316,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      152,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      282,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      237
+    ]
+  ]
+}

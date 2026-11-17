@@ -1,0 +1,92 @@
+{
+  "args": {
+    "data": "data",
+    "arch": "resnet18",
+    "image_size": "224",
+    "batch_size": "32",
+    "head_epochs": "2",
+    "finetune_epochs": "6",
+    "head_lr": "0.001",
+    "finetune_lr": "0.0001",
+    "weight_decay": "0.0001",
+    "label_smoothing": "0.1",
+    "patience": "3",
+    "workers": "2",
+    "seed": "42",
+    "out": "models/best_plant_disease_model.pth"
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "stage": "head",
+      "train_loss": 0.9463922192728197,
+      "train_acc": 0.6875675675675675,
+      "val_loss": 0.703087913562577,
+      "val_acc": 0.8675298804780877,
+      "lr": 0.001
+    },
+    {
+      "epoch": 2,
+      "stage": "head",
+      "train_loss": 0.7345891310202108,
+      "train_acc": 0.8229189189189189,
+      "val_loss": 0.6870497507878034,
+      "val_acc": 0.8645418326693227,
+      "lr": 0.001
+    },
+    {
+      "epoch": 3,
+      "stage": "finetune",
+      "train_loss": 0.5736591110487242,
+      "train_acc": 0.926054054054054,
+      "val_loss": 0.5277036183858773,
+      "val_acc": 0.9661354581673307,
+      "lr": 9.330127018922194e-05
+    },
+    {
+      "epoch": 4,
+      "stage": "finetune",
+      "train_loss": 0.4925517117139455,
+      "train_acc": 0.9645405405405405,
+      "val_loss": 0.48032958930232134,
+      "val_acc": 0.9731075697211156,
+      "lr": 7.500000000000001e-05
+    },
+    {
+      "epoch": 5,
+      "stage": "finetune",
+      "train_loss": 0.4693480641970763,
+      "train_acc": 0.9766486486486486,
+      "val_loss": 0.4635176974463748,
+      "val_acc": 0.9830677290836654,
+      "lr": 5e-05
+    },
+    {
+      "epoch": 6,
+      "stage": "finetune",
+      "train_loss": 0.4485570789092296,
+      "train_acc": 0.9846486486486487,
+      "val_loss": 0.4661401182531836,
+      "val_acc": 0.9770916334661355,
+      "lr": 2.500000000000001e-05
+    },
+    {
+      "epoch": 7,
+      "stage": "finetune",
+      "train_loss": 0.4419448616440232,
+      "train_acc": 0.987027027027027,
+      "val_loss": 0.4588627088592347,
+      "val_acc": 0.9780876494023905,
+      "lr": 6.698729810778065e-06
+    },
+    {
+      "epoch": 8,
+      "stage": "finetune",
+      "train_loss": 0.4330372711581153,
+      "train_acc": 0.9913513513513513,
+      "val_loss": 0.45348424039988877,
+      "val_acc": 0.9820717131474104,
+      "lr": 0.0
+    }
+  ]
+}

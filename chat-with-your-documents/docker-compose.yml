@@ -1,0 +1,42 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+
+  # One-shot job that pulls the LLM into the ollama volume.
+  ollama-pull:
+    image: ollama/ollama:latest
+    depends_on: [ollama]
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: ["ollama", "pull", "llama3.2"]
+    restart: "no"
+
+  ui:
+    build: .
+    depends_on: [ollama]
+    environment:
+      RAG_OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./documents:/app/documents
+      - ./chroma_db:/app/chroma_db
+    ports:
+      - "8501:8501"
+
+  api:
+    build: .
+    depends_on: [ollama]
+    command: ["python", "-m", "rag", "serve", "--host", "0.0.0.0", "--port", "8000"]
+    environment:
+      RAG_OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - ./documents:/app/documents
+      - ./chroma_db:/app/chroma_db
+    ports:
+      - "8000:8000"
+
+volumes:
+  ollama:

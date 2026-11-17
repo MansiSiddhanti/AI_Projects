@@ -1,0 +1,50 @@
+{"question": "What type of coordination is used in swarm systems compared to multi-agent systems?", "source": "Paper_01.pdf", "page": 5, "chunk_id": "Paper_01.pdf::p5::c4"}
+{"question": "What type of algorithm is typically used for unlabelled data in IoT settings?", "source": "Paper_02.pdf", "page": 35, "chunk_id": "Paper_02.pdf::p35::c2"}
+{"question": "What 16 competencies have been defined by Long and Magerko for AI literacy?", "source": "Paper_03.pdf", "page": 4, "chunk_id": "Paper_03.pdf::p4::c4"}
+{"question": "What is MetaCost, a cost-sensitive classification algorithm?", "source": "Paper_04.pdf", "page": 5, "chunk_id": "Paper_04.pdf::p5::c0"}
+{"question": "What is the general status of Artificial Intelligence in Engineering Education?", "source": "Paper_05.pdf", "page": 10, "chunk_id": "Paper_05.pdf::p10::c2"}
+{"question": "What is a notable limitation of many existing studies in agentic AI systems, where traditional AI and agentic AI are often not clearly distinguished?", "source": "Paper_01.pdf", "page": 3, "chunk_id": "Paper_01.pdf::p3::c3"}
+{"question": "What are the essential requirements of IoT?", "source": "Paper_02.pdf", "page": 4, "chunk_id": "Paper_02.pdf::p4::c3"}
+{"question": "What are some of the affordances (benefits) of using ChatGPT for education, according to Crompton and Burke?", "source": "Paper_03.pdf", "page": 3, "chunk_id": "Paper_03.pdf::p3::c1"}
+{"question": "What are some potential drawbacks of using a hybrid approach that combines multiple methods for handling imbalanced data in machine learning?", "source": "Paper_04.pdf", "page": 11, "chunk_id": "Paper_04.pdf::p11::c0"}
+{"question": "Does AI technology require significant technical support for educators in engineering education?", "source": "Paper_05.pdf", "page": 10, "chunk_id": "Paper_05.pdf::p10::c1"}
+{"question": "What is one of the main approaches in imitation learning (IL) that involves iteratively correcting mistakes made by an agent?", "source": "Paper_01.pdf", "page": 6, "chunk_id": "Paper_01.pdf::p6::c4"}
+{"question": "What is AIoT referred to as in the context of blending AI and IoT technologies?", "source": "Paper_02.pdf", "page": 36, "chunk_id": "Paper_02.pdf::p36::c0"}
+{"question": "Is GenAI considered a tool that should be oriented towards pedagogical purposes rather than the other way around?", "source": "Paper_03.pdf", "page": 20, "chunk_id": "Paper_03.pdf::p20::c2"}
+{"question": "What are some common methods used to address the challenges posed by imbalanced data in machine learning?", "source": "Paper_04.pdf", "page": 1, "chunk_id": "Paper_04.pdf::p1::c1"}
+{"question": "What types of tools are commonly used in engineering education to support students' practice and automated evaluation in online learning environments?", "source": "Paper_05.pdf", "page": 8, "chunk_id": "Paper_05.pdf::p8::c4"}
+{"question": "What are some of the scalability issues that arise when deploying agentic AI systems in large-scale and dynamic environments?", "source": "Paper_01.pdf", "page": 10, "chunk_id": "Paper_01.pdf::p10::c0"}
+{"question": "By what year is it forecasted that more than seventy billion gadgets will be linked to the internet?", "source": "Paper_02.pdf", "page": 4, "chunk_id": "Paper_02.pdf::p4::c2"}
+{"question": "What databases were used to identify relevant studies for the scoping review?", "source": "Paper_03.pdf", "page": 5, "chunk_id": "Paper_03.pdf::p5::c2"}
+{"question": "What metrics are used to evaluate the efficacy of techniques for handling imbalanced data in machine learning?", "source": "Paper_04.pdf", "page": 13, "chunk_id": "Paper_04.pdf::p13::c0"}
+{"question": "Can AI technology be used to predict a student's academic performance in undergraduate courses?", "source": "Paper_05.pdf", "page": 11, "chunk_id": "Paper_05.pdf::p11::c0"}
+{"question": "What type of AI systems require human-labelled data and human intervention for updates?", "source": "Paper_01.pdf", "page": 1, "chunk_id": "Paper_01.pdf::p1::c3"}
+{"question": "What types of security threats and attacks are primarily focused on in addressing the security concerns related to authentication and access control?", "source": "Paper_02.pdf", "page": 13, "chunk_id": "Paper_02.pdf::p13::c6"}
+{"question": "Do students need to know about AI literacy in order to create effective prompts for generating information with GenAI?", "source": "Paper_03.pdf", "page": 10, "chunk_id": "Paper_03.pdf::p10::c1"}
+{"question": "What metrics are commonly used for evaluating machine learning model performance when dealing with class distribution imbalances?", "source": "Paper_04.pdf", "page": 12, "chunk_id": "Paper_04.pdf::p12::c0"}
+{"question": "What is an example of a competency assessment framework proposed by Vargas et al. that enables continuous monitoring and improvement through learning analytics?", "source": "Paper_05.pdf", "page": 7, "chunk_id": "Paper_05.pdf::p7::c1"}
+{"question": "What is one key characteristic of agentic AI?", "source": "Paper_01.pdf", "page": 2, "chunk_id": "Paper_01.pdf::p2::c0"}
+{"question": "What type of framework is proposed by some researchers as a mobile data gatherer and aerial anchor node in an AA V-assisted IoT network?", "source": "Paper_02.pdf", "page": 33, "chunk_id": "Paper_02.pdf::p33::c2"}
+{"question": "How many studies were retrieved from the databases SCOPUS, Web of Science (WoS), and ERIC for this Scoping Review?", "source": "Paper_03.pdf", "page": 1, "chunk_id": "Paper_03.pdf::p1::c2"}
+{"question": "What is the main goal of combining SMOTE-N with Edited Nearest Neighbors?", "source": "Paper_04.pdf", "page": 4, "chunk_id": "Paper_04.pdf::p4::c2"}
+{"question": "How many publications were included in the analysis of AI research in engineering education?", "source": "Paper_05.pdf", "page": 3, "chunk_id": "Paper_05.pdf::p3::c0"}
+{"question": "What types of robots use agentic AI to adapt to human behavior in real-time?", "source": "Paper_01.pdf", "page": 8, "chunk_id": "Paper_01.pdf::p8::c0"}
+{"question": "What are some of the technical and operational challenges associated with implementing IoT technology?", "source": "Paper_02.pdf", "page": 34, "chunk_id": "Paper_02.pdf::p34::c5"}
+{"question": "What are the four components typically included in a prompt for GenAI systems?", "source": "Paper_03.pdf", "page": 2, "chunk_id": "Paper_03.pdf::p2::c0"}
+{"question": "What type of data augmentation method is used in a recent study to tackle the challenge of imbalanced spectral data in materials science?", "source": "Paper_04.pdf", "page": 7, "chunk_id": "Paper_04.pdf::p7::c1"}
+{"question": "What types of learning environments can be created in engineering education by integrating virtual reality (VR) and augmented reality (AR) with AI?", "source": "Paper_05.pdf", "page": 9, "chunk_id": "Paper_05.pdf::p9::c3"}
+{"question": "What is the main difference between an AI agent and agentic AI in terms of their functionality?", "source": "Paper_01.pdf", "page": 2, "chunk_id": "Paper_01.pdf::p2::c2"}
+{"question": "What is the name of the self-supervised learning technique employed by the framework EVOLIoT?", "source": "Paper_02.pdf", "page": 30, "chunk_id": "Paper_02.pdf::p30::c3"}
+{"question": "Should educational guidelines for artificial intelligence (AI) literacy be tailored to different age groups of students?", "source": "Paper_03.pdf", "page": 19, "chunk_id": "Paper_03.pdf::p19::c0"}
+{"question": "What is a common drawback of SMOTE when generating synthetic examples for minority classes?", "source": "Paper_04.pdf", "page": 4, "chunk_id": "Paper_04.pdf::p4::c1"}
+{"question": "What areas of research are currently being focused on in the application of artificial intelligence (AI) in engineering education?", "source": "Paper_05.pdf", "page": 10, "chunk_id": "Paper_05.pdf::p10::c3"}
+{"question": "What are some of the core technologies used in agentic AI systems?", "source": "Paper_01.pdf", "page": 6, "chunk_id": "Paper_01.pdf::p6::c2"}
+{"question": "What type of machine learning classifier was proposed in a novel approach to authenticate noisy Physically Unclonable Functions (PUFs)?", "source": "Paper_02.pdf", "page": 26, "chunk_id": "Paper_02.pdf::p26::c2"}
+{"question": "What categories of AI's impact on education were identified by Chen and Chen in their review?", "source": "Paper_03.pdf", "page": 3, "chunk_id": "Paper_03.pdf::p3::c2"}
+{"question": "Does oversampling increase a model's generalization abilities by introducing more variability into the minority class?", "source": "Paper_04.pdf", "page": 3, "chunk_id": "Paper_04.pdf::p3::c1"}
+{"question": "How many articles were included in the final set of articles after filtering and verification?", "source": "Paper_05.pdf", "page": 2, "chunk_id": "Paper_05.pdf::p2::c5"}
+{"question": "What types of jobs are most susceptible to being automated by agentic AI systems?", "source": "Paper_01.pdf", "page": 9, "chunk_id": "Paper_01.pdf::p9::c2"}
+{"question": "What is a major limitation of 5G networks in supporting evolving smart applications?", "source": "Paper_02.pdf", "page": 32, "chunk_id": "Paper_02.pdf::p32::c0"}
+{"question": "What is the name of a prompt engineering framework developed by Denis Dinkevych?", "source": "Paper_03.pdf", "page": 21, "chunk_id": "Paper_03.pdf::p21::c3"}
+{"question": "Does effective regularization in Gradient Boosting Decision Trees (GBDT) help prevent performance loss on unseen data?", "source": "Paper_04.pdf", "page": 10, "chunk_id": "Paper_04.pdf::p10::c5"}
+{"question": "How many studies on AI applications in engineering education were analyzed for this systematic review?", "source": "Paper_05.pdf", "page": 1, "chunk_id": "Paper_05.pdf::p1::c1"}

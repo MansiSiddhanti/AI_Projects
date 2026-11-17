@@ -1,0 +1,19 @@
+[project]
+name = "chat-with-your-documents"
+version = "2.0.0"
+description = "Local, private RAG over PDFs: hybrid search, cross-encoder reranking, Ollama, Streamlit UI and REST API."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.ruff]
+extend-exclude = [".venv-rag"]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["B905", "B008", "SIM905"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

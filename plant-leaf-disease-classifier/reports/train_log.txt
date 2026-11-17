@@ -1,0 +1,11 @@
+device=cpu  classes=4  train=4625  val=1004
+[head    ] epoch  1  train 0.9464 / 68.76%   val 0.7031 / 86.75%   190s  *
+[head    ] epoch  2  train 0.7346 / 82.29%   val 0.6870 / 86.45%   172s  *
+[finetune] epoch  3  train 0.5737 / 92.61%   val 0.5277 / 96.61%   308s  *
+[finetune] epoch  4  train 0.4926 / 96.45%   val 0.4803 / 97.31%   244s  *
+[finetune] epoch  5  train 0.4693 / 97.66%   val 0.4635 / 98.31%   241s  *
+[finetune] epoch  6  train 0.4486 / 98.46%   val 0.4661 / 97.71%   245s
+[finetune] epoch  7  train 0.4419 / 98.70%   val 0.4589 / 97.81%   229s  *
+[finetune] epoch  8  train 0.4330 / 99.14%   val 0.4535 / 98.21%   214s  *
+
+best val loss 0.4535 at epoch 8, saved to models/best_plant_disease_model.pth

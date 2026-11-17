@@ -1,0 +1,26 @@
+# Virtual environments
+.venv*/
+venv/
+churn_env/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Editor / tool folders
+.vscode/
+.idea/
+.claude/
+.agents/
+
+# Large / regenerated data
+chat-with-your-documents/chroma_db/
+chat-with-your-documents/documents/
+plant-leaf-disease-classifier/data/
+plant-leaf-disease-classifier/plantvillage-source/

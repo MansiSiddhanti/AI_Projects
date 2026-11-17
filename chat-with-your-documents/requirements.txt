@@ -1,0 +1,13 @@
+# Core
+chromadb>=1.0,<2
+sentence-transformers>=3.0
+pypdf>=5.0
+ollama>=0.4
+pydantic>=2.6
+pydantic-settings>=2.2
+
+# Interfaces
+streamlit>=1.40
+fastapi>=0.110
+python-multipart>=0.0.9
+uvicorn>=0.29

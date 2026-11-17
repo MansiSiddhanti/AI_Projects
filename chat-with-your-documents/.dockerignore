@@ -1,0 +1,8 @@
+.venv-rag/
+chroma_db/
+documents/
+.git/
+.env
+__pycache__/
+.pytest_cache/
+.ruff_cache/
