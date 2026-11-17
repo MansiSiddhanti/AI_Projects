@@ -16,8 +16,6 @@ __pycache__/
 # Editor / tool folders
 .vscode/
 .idea/
-.claude/
-.agents/
 
 # Large / regenerated data
 chat-with-your-documents/chroma_db/
